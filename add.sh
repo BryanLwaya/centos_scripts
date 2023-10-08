@@ -1,0 +1,10 @@
+#!/bin/bash
+# Take input from user and calculate sum.
+ 
+read -p "Enter first number: " num1
+read -p "Enter second number: " num2
+read -p "Enter third number: " num3
+ 
+sum=$(( $num1 + $num2 + $num3 ))
+ 
+echo "Sum is: $sum"   
